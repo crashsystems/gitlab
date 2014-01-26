@@ -1,0 +1,17 @@
+{
+  "gitlab": {
+    "host": "example.com",
+    "url": "http://example.com/",
+    "email_from": "gitlab@example.com",
+    "support_email": "support@example.com",
+    "database_adapter": "mysql",
+    "database_password": "dbTmpAppPw",
+    "revision": "6-5-stable"
+  },
+  "mysql": {
+    "server_root_password": "dbTmpRoot"
+  },
+  "run_list": [
+    "gitlab::default"
+  ]
+}
